@@ -1,11 +1,9 @@
 import Landing from "./Landing";
-import Navbar from "./Navbar";
 
 export default function Home() {
     return (
         <div className="main">
-            <Navbar />
-            <Landing />
+            <Landing title="ashures" bg="https://images8.alphacoders.com/117/1174099.jpg"/>
         </div>
     );
 }

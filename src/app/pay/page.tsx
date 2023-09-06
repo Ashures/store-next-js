@@ -3,8 +3,7 @@ import Navbar from "../Navbar";
 export default function Page() {
     return (
         <>
-            <Navbar />
-            <div className="shopping-main">
+            <div className="pay-main">
                 <h1>pay</h1>
             </div>
         </>

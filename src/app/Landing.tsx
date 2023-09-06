@@ -1,8 +1,8 @@
-export default function Landing() {
+export default function Landing({ title, bg }: {title: string, bg: string}) {    
     return (
-        <div className="landing">
-            <h1>Ashures</h1>
-            <div className="light-shadow" id="watermark">® 2023 ASHURES</div>
+        <div className="landing" style={{backgroundImage: `url(${bg})`}}>
+            <h1 className="landing-heading">{title}</h1>
+            <div className="light-shadow watermark">® 2023 ASHURES</div>
         </div>
     );
 }
